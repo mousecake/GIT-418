@@ -1,0 +1,384 @@
+/* Block of code below is for CSS reset purposes only and is not created by student */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* End Myerweb CSS Reset */
+
+
+/*   Student (Maurice Searcy) created CSS code for the site "GIT Microsite" begins below    */
+
+
+/* Color Guide
+
+Yellow: 255,198,39
+Red: 140,29,64
+Grey: 130,130,130
+Blue: 10,72,89
+Dark Grey: 53,53,53
+Green: 88,153,70
+Bronze: 182,175,157
+Text: 20,20,20 or use alpha channel at about 75%
+Light Grey: 205,205,205
+
+*/
+
+/* font */
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto/Roboto-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('../fonts/roboto/Roboto-Medium.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('../fonts/roboto/Roboto-Bold.ttf')  format('truetype');
+  font-weight: bold;
+}
+
+/* media targeting */
+
+
+@viewport {
+    width: device-width;
+    zoom: 1;
+    min-zoom: 1;
+    max-zoom: 2;
+    }
+
+    
+/* Global */
+
+html {
+    width: 1020px;
+    margin:0 auto;
+}
+
+body {
+    background-color: rgb(255,255,255 );
+    font-family: "Roboto-Medium","Arial",sans-serif;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    color: rgba(0,0,0,0.75);
+    font-size: 85%;
+    line-height: 1.3em;
+    width: 100%;
+    margin:0 auto;
+    }
+
+span#headerbg:first-child {
+    display: block;
+    background: linear-gradient(rgba(182,175,157,1), rgba(182,175,157,0));
+    width: 100%;
+    height: 30px;
+    margin: 0 auto;
+    }
+
+span#footerbg:last-child {
+    display: block;
+    background: linear-gradient(rgba(182,175,157,0), rgba(182,175,157,1));
+    width: 100%;
+    height: 30px;
+    margin: 0 auto;
+    }
+
+.boxes {
+    display: flex;
+    margin: 0 1em;
+    justify-content: space-between;
+    }
+
+#accordion {
+    width: 65%;
+    margin: 1em auto;
+    }
+
+a {
+    text-decoration: none;
+    }
+
+.pageTitle {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 1em;
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(10,72,89);
+}
+
+section a:link, address a:link {
+    color: rgb(88,153,70);
+    }
+
+section a:visited, address a:visited {
+    color: rgb(182,175,157);
+    }
+
+#GITPitch {
+    padding: 0 2.5em;
+    position: relative;
+    width: 620px;
+    }
+
+
+#GITPitch p:first-child::nth-word(-n+4) {
+    color: rgb(10,72,89);
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: "Roboto","Arial",sans-serif;
+    }   
+
+#GITPitch p {
+    padding-bottom: 0.5em;
+    }
+
+.first {
+    float: right;
+    margin-left: 0.7em;
+    }
+
+.second {
+    clear: right;
+    float: left;
+    margin-right: 0.7em;
+    }
+
+#news, #tips {
+    width: 219px;
+    height: 800px;
+    background-color: rgba(0,0,0,0.30);
+    text-align: center;
+    padding: 0.7em;
+    font-family: "Roboto","Arial",sans-serif;
+    }
+
+#news p, #tips p {
+    margin: 0 0 0 1em;
+    text-align: left;
+    }
+
+
+#news img, #tips img {
+    margin: 0.5em auto;
+    width: 194px;
+    }
+
+h3 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgb(10,72,89);
+    margin-bottom: 0.7em;
+    }
+
+h4 {
+    font-size: 1.0em;
+    color: rgb(10,72,89);
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0 auto 0.3em;
+    }
+
+footer {
+    margin: 2em auto 0;
+    width: 100%;
+    }
+
+address {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em
+    }
+
+#filters {
+    width: 70%;
+    padding-left: 3em;
+    }
+
+#filters h5 {
+    font-weight: bold;
+    margin: 1em 0 0 0;
+    }
+
+#list {
+    margin-left: 1em;
+    }
+
+form {
+    display: flex;
+    }
+
+select {
+    margin: 0 2em 0 0.5em; 
+}
+
+/* Header */
+
+header {
+    width: 35%;
+    }
+
+header h1 {
+    text-indent: -9999px;
+    }
+
+header h2 {
+    text-indent: -9999px;
+    }
+
+header a {
+    background-image: url("../images/asu.png");
+    margin: 0 auto;
+    display: block;
+    height: 85px;
+    width: 175px;
+    text-indent: -9999px;
+    }
+
+/* Main Navigation */
+
+#mainNav {
+    /* width: 65%; */
+    margin: 0 1em;
+    height: 3em;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: rgba(0,0,0, 0.35);
+    }
+
+.mainNavMenuItem {
+    font-weight: bold;
+    }
+
+
+#mainNav ul {
+    display: flex;
+    }
+
+#mainNav a {
+    margin: 15px 20px;
+    }
+
+/* .search {
+    margin-top: 15px;
+    margin-left: 1em;
+    } */
+
+.skip {
+    position: absolute;
+    text-indent: -9999px;
+    display: none;
+    }
+    
+nav a {
+    display: block;
+    color: rgba(0,0,0,.75);
+    }
+
+/*  Social Navigation  */
+
+#social a {
+    text-indent: -9999px;
+    }
+
+.facebook {
+    background-image: url("../images/facebook.jpg");
+    height: 60px;
+    width: 60px;
+    }
+
+.twitter {
+    background-image: url("../images/twitter.jpg");
+    height: 60px;
+    width: 60px;
+    }
+
+.printMe {
+    background-image: url("../images/printme.jpg");
+    height: 60px;
+    width: 60px;
+    }
+
+.emailMe {
+    background-image: url("../images/email.jpg");
+    height: 60px;
+    width: 60px;
+    }
+
+.other {
+    background-image: url("../images/other.jpg");
+    height: 60px;
+    width: 60px;
+    }
+
+/*
+nav ul li a:active {
+    -ms-transform: translate(2px, 2px); /* IE 9 */
+/*  -webkit-transform: translate(2px, 2px); /* Chrome, Safari, Opera */
+/*  transform: translate(2px, 2px);
+    }
+
+
+ /* This was the best method I could come up with for restricting the length of the border. I put a paragraph in a span in the HTML. */
+ 
+ /*
+    margin: 3.5em auto 2.2em;
+    width: 80%;
+    display: block;
+    border-top: 1px solid rgba(107,74,51,0.45);
+    }
+*/
+
+/* I used a CSS button generator found here: http://css-tricks.com/examples/ButtonMaker/ to create this code and then modded the size of the button via the padding and font size. Also, this div for the button keeps the background color from the footer bleeding all the way up to the nav. Clearing the float for the footer does not fix this! */
