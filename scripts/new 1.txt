@@ -1,0 +1,20 @@
+EQ Accounts
+
+jackworld - !Bravo4150
+	bert -
+		shaman/nec
+	phin - 
+		rogue
+mhouck
+	phin
+		bard
+mlhouck
+	bert
+		wizard
+stancoffyn
+	bert
+		warrior
+mhouck8172
+	bert
+		mage
+		
