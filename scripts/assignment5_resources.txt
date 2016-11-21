@@ -1,0 +1,19 @@
+RESOURCES:
+
+Resource			URL
+
+Career Preparation		https://students.asu.edu/careerguide/careerpreparation
+College Advising		https://http://poly.engineering.asu.edu/advising
+Counseling Services		https://students.asu.edu/counseling
+Financial Aid			https://students.asu.edu/financialaid
+Fitness & Recreation		http://fitness.asu.edu/
+Health Services			https://students.asu.edu/health
+Housing				http://housing.asu.edu/home
+Library				http://lib.asu.edu/
+Parking				https://cfo.asu.edu/pts
+Scholarships			https://students.asu.edu/scholarships
+Student Employment		https://students.asu.edu/employment
+Student Organizations		http://asu.orgsync.com/
+Tutoring Support		https://tutoring.asu.edu/
+Writing Support			https://tutoring.asu.edu/writing-centers
+

@@ -1,0 +1,764 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"Robot",
+				"Roboto-Medium"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"border-bottom-",
+				"border-bottom-color"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"border-bottom",
+				"border-bottom-style"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"flex",
+				"flex"
+			],
+			[
+				"heig",
+				"height"
+			],
+			[
+				"cate",
+				"categorySelected"
+			],
+			[
+				"selected",
+				"selectedCategory"
+			],
+			[
+				"uname",
+				"uname"
+			],
+			[
+				"subUse",
+				"subUserValue"
+			],
+			[
+				"validateU",
+				"validateUserName"
+			],
+			[
+				"val",
+				"validateField"
+			],
+			[
+				"valid",
+				"validdateField"
+			],
+			[
+				"value",
+				"value"
+			],
+			[
+				"popUp",
+				"popUpUsrName"
+			],
+			[
+				"field",
+				"fieldName"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"zip",
+				"zip"
+			],
+			[
+				"vali",
+				"validateZip"
+			],
+			[
+				"validate",
+				"validateEmail"
+			],
+			[
+				"A",
+				"a-zA-Z0-9"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"regexp",
+				"Regexp"
+			],
+			[
+				"email",
+				"email"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"creat",
+				"createElement"
+			],
+			[
+				"res",
+				"restartButton"
+			],
+			[
+				"cre",
+				"createElement"
+			],
+			[
+				"pla",
+				"playWord"
+			],
+			[
+				"lett",
+				"letterButtonClicked"
+			],
+			[
+				"mat",
+				"matchGameWord"
+			],
+			[
+				"che",
+				"checkLetter"
+			],
+			[
+				"hmI",
+				"hmImage"
+			],
+			[
+				"game",
+				"gameWord"
+			],
+			[
+				"letter",
+				"lettersGuessedJoined"
+			],
+			[
+				"gam",
+				"gameWord"
+			],
+			[
+				"gu",
+				"guessedLettersJoined"
+			],
+			[
+				"bord",
+				"border-width"
+			],
+			[
+				"bor",
+				"border-style"
+			],
+			[
+				"div",
+				"divId"
+			],
+			[
+				"di",
+				"divId"
+			],
+			[
+				"create",
+				"createElement"
+			],
+			[
+				"le",
+				"letterButton"
+			],
+			[
+				"GET",
+				"getDiv"
+			],
+			[
+				"GE",
+				"getDiv"
+			],
+			[
+				"guessed",
+				"guessedWord"
+			],
+			[
+				"apped",
+				"appendChild"
+			],
+			[
+				"guess",
+				"guessedLetters"
+			],
+			[
+				"let",
+				"letter"
+			],
+			[
+				"play",
+				"playWord"
+			],
+			[
+				"append",
+				"appendChild"
+			],
+			[
+				"app",
+				"appendChild"
+			],
+			[
+				"image",
+				"imageSelector"
+			],
+			[
+				"png",
+				"png"
+			],
+			[
+				"crea",
+				"creatElement"
+			],
+			[
+				"start",
+				"startButton"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"del",
+				"delButton"
+			],
+			[
+				"butt",
+				"BUTTON"
+			],
+			[
+				"sh",
+				"shSubmit"
+			],
+			[
+				"add",
+				"addButton"
+			],
+			[
+				"getEleem",
+				"getElementByID"
+			],
+			[
+				"reset",
+				"resetBtn"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"backgroun",
+				"background-size"
+			],
+			[
+				"background",
+				"background-image"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "GIT418_Searcy_microsite.html",
+			"settings":
+			{
+				"buffer_size": 12163,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "video/balloonBashASU.files/html5video.m4v",
+			"settings":
+			{
+				"buffer_size": 41,
+				"line_ending": "Windows",
+				"name": "video/balloonBashASU.files/html5video.m4v"
+			}
+		},
+		{
+			"file": "scripts/jquery-ui-1.12.1.custom.accordion/jquery-ui.structure.css",
+			"settings":
+			{
+				"buffer_size": 1831,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "styles/style.css",
+			"settings":
+			{
+				"buffer_size": 6939,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scripts/jquery-ui-1.12.1.custom.accordion/jquery-ui.css",
+			"settings":
+			{
+				"buffer_size": 18877,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scripts/home.js",
+			"settings":
+			{
+				"buffer_size": 2892,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Pickles/Desktop/GIT 418",
+		"/C/Users/Pickles/Desktop/GIT 418/scripts",
+		"/C/Users/Pickles/Desktop/GIT 418/scripts/jquery-ui-1.12.1.custom.accordion",
+		"/C/Users/Pickles/Desktop/GIT 418/styles"
+	],
+	"file_history":
+	[
+		"/C/Users/Pickles/Desktop/GIT 418/archive/GIT418_Searcy_Assignment_2and3/GIT418_Searcy_Assignment2.html",
+		"/C/Users/Pickles/Desktop/GIT 418/courses.html",
+		"/C/Users/Pickles/Desktop/GIT 418/GIT418_Searcy_Assignment2.html",
+		"/C/Users/Pickles/Desktop/GIT 418/styles/style.css",
+		"/C/Users/Pickles/Desktop/GIT 418/scripts/courses.js",
+		"/C/Users/Pickles/Desktop/GIT 418/scripts/filter.js",
+		"/C/Users/Pickles/Desktop/GIT 418/scripts/modernizr.min.js",
+		"/C/Users/Pickles/Desktop/GIT 418/scripts/home.js",
+		"/L/Backup/ASU to do/GIT237/Week 7/index.html",
+		"/L/Backup/ASU to do/GIT414/New HTML doc.txt",
+		"/L/Backup/ASU to do/GIT414/New CSS Doc.txt",
+		"/C/Users/Pickles/Desktop/GIT 418/styles/home.css",
+		"/C/Users/Pickles/Desktop/GIT 418/uNTITLED",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 6/Assignment 5/A5_Searcy.js",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 6/Assignment 5/A5_Searcy.css",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 6/Assignment 5/A5_Searcy.html",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 6/Assignment 5/popup-window",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 5/Assignment 4/A4_Searcy.js",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 2/Assignment_1/A1_Searcy.css",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 4/Assignment 3/A3_Searcy.css",
+		"/C/Users/Pickles/Documents/my games/Terraria/config.json",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 5/Assignment 4/A4_Searcy.html",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 5/Assignment 4/A4_Searcy.css",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 4/Assignment 3/A3_Searcy.js",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 4/Assignment 3/A3_Searcy.html",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 2/Assignment_1/A1_Searcy.js",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 5/Assignment 4/CSSReset.com - Keeping Footer At The Bottom Of The Page/CSSReset.com - Keeping Footer At The Bottom Of The Page/style.css",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 5/Assignment 4/CSSReset.com - Keeping Footer At The Bottom Of The Page/CSSReset.com - Keeping Footer At The Bottom Of The Page/index.html",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 5/Assignment 4/temp.html",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 2/Assignment_1/A1_Searcy.html",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 3/Assignment 2/Magic8Ball-MISTAKES/A2_Searcy.html",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 5/Assignment 4/A4_Searcy_Game_Dictionary.js",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 4/Assignment 3/index.html",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 4/A3_Searcy.html",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 4/index.html",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 4/A3_Searcy.css",
+		"/L/Backup/Documents/Mine/ASU to do/GIT417/Module 4/A3_Searcy.js",
+		"/M/Backup/Documents/Mine/ASU to do/GIT417/Module 4/A3_Searcy.js",
+		"/L/Backup/Documents/Mine/ASU to do/GIT417/Module 4/A3_Searcy.css",
+		"/L/Backup/Documents/Mine/ASU to do/GIT417/Module 4/A3_Searcy.html",
+		"/L/Backup/Documents/Mine/ASU to do/GIT414/Week 5/Searcy_GIT414_Assignment4/style.css",
+		"/L/Backup/Documents/Mine/ASU to do/GIT417/Navigator object shit",
+		"/L/Backup/Documents/Mine/ASU to do/GIT237/Week 3/Searcyfootball-style.css",
+		"/L/Backup/Documents/Mine/ASU to do/GIT417/Module 2/Assignment_1/A1_Searcy.css",
+		"/L/Backup/Documents/Mine/ASU to do/GIT215/index.htm",
+		"/L/Backup/Documents/Mine/ASU to do/GIT237/Week 4/Searcy_hello-world.html",
+		"/F/Temp/GIT 417 Assignment 3/A3_Searcy.html",
+		"/L/Backup/Documents/Mine/ASU to do/GIT237/Week 7/index.html",
+		"/L/Backup/Documents/Mine/ASU to do/GIT417/Module 3/Assignment 2/Magic8Ball-MISTAKES/style.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"m4v ",
+			"h3",
+			"images",
+			"7em",
+			"right",
+			"1",
+			"{\n",
+			"1px",
+			"();\n",
+			"usrName",
+			"UsrName",
+			"\").",
+			"should",
+			"responses"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "GIT418_Searcy_microsite.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12163,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								39
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								41
+							]
+						],
+						"settings":
+						{
+							"auto_name": "video/balloonBashASU.files/html5video.m4v",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scripts/jquery-ui-1.12.1.custom.accordion/jquery-ui.structure.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1831,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "styles/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2651,
+								2651
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1710.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "scripts/jquery-ui-1.12.1.custom.accordion/jquery-ui.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18877,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7717,
+								7717
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "scripts/home.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1643,
+								1643
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "GIT418microsite.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
