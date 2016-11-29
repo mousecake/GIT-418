@@ -393,6 +393,15 @@ nav a {
     width: 60px;
     }
 
+#photopage {
+    display: flex;   
+}
+
+.gallery-photo {
+    max-height:100px;
+    max-width: 200px;
+}
+
 /*
 nav ul li a:active {
     -ms-transform: translate(2px, 2px); /* IE 9 */
