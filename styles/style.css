@@ -189,6 +189,31 @@ section a:visited, address a:visited {
     padding-bottom: 0.5em;
     }
 
+#checks {
+    width: 620px;
+    padding: 0 2.5em;
+    text-align: left;
+}
+
+#checks legend {
+    font-weight: bold;
+    font-size: 1.3em;
+    padding-bottom: 1em;
+}
+
+#checks form {
+    padding: 0 1em;
+}
+
+.button {
+    margin: 0.5em;
+}
+
+#output {
+    padding: 0.5em 2em;
+    font-size: 1.2em
+}
+
 .first {
     float: right;
     margin-left: 0.7em;
@@ -244,6 +269,7 @@ address {
     text-align: center;
     font-weight: bold;
     font-size: 1.2em
+    color: rgba(0,0,0,0.5);
     }
 
 #filters {
