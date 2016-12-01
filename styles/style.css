@@ -178,12 +178,12 @@ section a:visited, address a:visited {
     display: none;
 }
 
-#GITPitch p:first-child::nth-word(-n+4) {
+/* #GITPitch p:first-child::nth-word(-n+4) {
     color: rgb(10,72,89);
     font-weight: bold;
     font-size: 1.2em;
     font-family: "Roboto","Arial",sans-serif;
-    }   
+    } */  
 
 #GITPitch p {
     padding-bottom: 0.5em;
@@ -393,13 +393,49 @@ nav a {
     width: 60px;
     }
 
-#photopage {
-    display: flex;   
+#photo-container {
+    margin: 0em 1.5em;
+}
+
+#photos {
+    background-color: black;
+    padding: 10px 0 0 10px;
+}
+
+#photos, #photopage {
+    display: inline-flex;
+    min-width: 75%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 0.5em;
 }
 
 .gallery-photo {
-    max-height:100px;
-    max-width: 200px;
+    height: 132px;
+    max-width: 235px;
+    margin: 0 10px 10px 0px;
+}
+
+#photopage li a {
+    display: block;
+    padding: 0 3px;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin: 0 4px 4px 0;
+    font-size: 1em;
+    width: 30px;
+    text-align: center;
+    background: #b7af9d;
+    background-image: linear-gradient(to bottom, #b7af9d, #e0e0e0);
+    color: #282828;
+    border: solid #5a5a5a 1px;
+    box-shadow: 1px 1px 1px #888888;
+}
+
+#photopage li a:hover {
+  background: rgb(140,29,64);
+  color: rgb(0,0,0);
+}
 }
 
 /*

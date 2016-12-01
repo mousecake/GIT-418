@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title title="student version">ASU GIT Program Course Listing</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/style.css" />
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+	<script src="scripts/flickr.js" type="text/javascript" ></script>
+	<script src="scripts/gallery.js" type="text/javascript" ></script>
+	<script src="scripts/filter.js" type="text/javascript"></script>
+</head>
+<body>
+
+	<span id="headerbg"></span>
+	<div class="boxes">
+	<header id="branding">
+		<hgroup>
+			<h1 id="siteTitle"><a href="GIT418-Searcy-microsite.html" rel="home">ASU Graphics Information Technology Program</a></h1>
+			<h2 id="siteDescription">Teaching Innovation</h2> 
+ 		</hgroup>
+	</header>
+
+	<a href="#filters" class="skip">skip to content</a>
+
+	<nav id="mainNav" title="Main Navigation Menu">
+		<ul title="menu" class="mainNavMenu">
+			<li class="mainNavMenuItem"><a href="GIT418-Searcy-microsite.html" title="Student Built GIT homepage">Home</a></li>
+			<li class="mainNavMenuItem"><a href="courses.html" title="Courses">Courses</a></li>
+			<li class="mainNavMenuItem"><a href="resources.html" title="Resources">Resources</a></li>
+			<li class="mainNavMenuItem"><a href="GIT418-Searcy-microsite.html" title="Careers">Careers</a></li>
+			<li class="mainNavMenuItem"><a href="gallery.html" title="Gallery">Gallery</a></li>
+		</ul>
+	</nav>
+	</div>
+	<p class="pageTitle">ASU GIT Program Photo Gallery</p>
+	<div class="boxes">
+		<aside id="social" title="Social Media Navigation Menu">
+			<nav class="socialNav" title="Social Media Navigation">
+				<ul>
+					<li><a class="facebook" href="https://facebook.com/" title="Link to Facebook">facebook</a></li>
+					<li><a class="twitter" href="https://twitter.com/" title="Link to Twitter">twitter</a></li>
+					<li><a class="printMe" href="javascript:window.print()">print</a></li>
+				<!-- https://css-tricks.com/quick-tip-making-a-print-this-page-button/ -->
+					<li><a class="emailMe" href="mailto:username@example.com?subject=ASU GIT Program&body=message%20goes%20here" title="click to open e-mail client and share this webpage">e-mail</a></li>
+					<li><a class="other" href="GIT418-Searcy-microsite.html" title="Link to other ways to share on social media">other</a></li>
+				</ul>	
+			</nav>
+		</aside>
+
+	<section>
+		<div id="photo-container">
+			<ul id="photos">
+			</ul>
+			<0l id="photopage">
+			</0l>
+		</div>
+	</section>
+
+	<aside title="tip" id="tips">
+		<h3>Did you Know?</h3>
+		<img src="images/kiosk.jpg" alt="2 students review outdoor kiosk postings" >
+		<p>That you have access Maecenas ultrices rhoncus risus, dignissim dapibus dui maximus eu. Aliquam erat volutpat. Sed vestibulum mauris ante, eu commodo mauris elementum non. In interdum tristique eros ut commodo. Vestibulum non tempus ante. Praesent posuere ornare dapibus. Integer laoreet dui justo, sed sagittis arcu facilisis nec.</p>
+		<img src="images/hall.jpg" alt="ASU Library" >
+		<p>Cras at rutrum ex. Aenean vel pretium nisi, et ultrices massa. Etiam id dictum sem, et porttitor purus.</p>
+	</aside>
+	</div>
+	<footer>
+		<address title="Our Address">
+			Graphics Information Technology<br> 
+			6075 S. Innovation Way West<br>
+			Technology Center<br>
+			Mesa, AZ 85212<br>
+			<a title="E-mail GIT @ASU now!" href="mailto:ask.git@asu.edu">ask.git@asu.edu</a>.
+		</address>
+	</footer>
+	<span id="footerbg"></span>
+	</body>
+	<script>
+		$(document).ready(function(){
+			GetPhotos(1);
+		});
+
+		$(document).on('click', 'a.photo-page', function(){
+			ClearPhotos();
+			GetPhotos(parseInt($(this).html()));
+			//console.log($(this).html());
+		});
+	</script>
+</html>

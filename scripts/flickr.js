@@ -1,3 +1,6 @@
+// !!! none of this code was completed by the student !!!
+// This is a flickr wrapper courstesy of ...
+
 function Flickr(init) {
   
   var ajaxSettings = {

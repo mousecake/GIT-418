@@ -28,7 +28,7 @@ function ClearPhotos()
 function AddPhoto(photo)
 {
 	var photoitem = $('<li class="photo"></li>');
-	photoitem.append('<img src="' + photo.src() + '" class="gallery-photo" />');
+	photoitem.append('<img src="' + photo.src() + '" class="gallery-photo" >');
 	$("ul#photos").append(photoitem);
 }
 
