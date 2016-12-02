@@ -137,7 +137,6 @@ body {
 
 .boxes {
     display: flex;
-    margin: 0 1em;
     justify-content: space-between;
     }
 
@@ -178,16 +177,34 @@ section a:visited, address a:visited {
     display: none;
 }
 
-#GITPitch p:first-child::nth-word(-n+4) {
-    color: rgb(10,72,89);
-    font-weight: bold;
-    font-size: 1.2em;
-    font-family: "Roboto","Arial",sans-serif;
-    }   
-
 #GITPitch p {
     padding-bottom: 0.5em;
     }
+
+#checks {
+    width: 620px;
+    padding: 0 2.5em;
+    text-align: left;
+}
+
+#checks legend {
+    font-weight: bold;
+    font-size: 1.3em;
+    padding-bottom: 1em;
+}
+
+#checks form {
+    padding: 0 1em;
+}
+
+.button {
+    margin: 0.5em;
+}
+
+#output {
+    padding: 0.5em 2em;
+    font-size: 1.2em
+}
 
 .first {
     float: right;
@@ -244,6 +261,7 @@ address {
     text-align: center;
     font-weight: bold;
     font-size: 1.2em
+    color: rgba(0,0,0,0.5);
     }
 
 #filters {
@@ -294,7 +312,6 @@ header a {
 /* Main Navigation */
 
 #mainNav {
-    /* width: 65%; */
     margin: 0 1em;
     height: 3em;
     border-bottom-style: solid;
@@ -314,11 +331,6 @@ header a {
 #mainNav a {
     margin: 15px 20px;
     }
-
-/* .search {
-    margin-top: 15px;
-    margin-left: 1em;
-    } */
 
 .skip {
     position: absolute;
@@ -367,22 +379,77 @@ nav a {
     width: 60px;
     }
 
-/*
-nav ul li a:active {
-    -ms-transform: translate(2px, 2px); /* IE 9 */
-/*  -webkit-transform: translate(2px, 2px); /* Chrome, Safari, Opera */
-/*  transform: translate(2px, 2px);
+#photo-container {
+    margin: 0em 1.5em;
     }
 
+#photos {
+    background-color: black;
+    padding: 10px 0 0 10px;
+    max-width: 660px;
+    }
 
- /* This was the best method I could come up with for restricting the length of the border. I put a paragraph in a span in the HTML. */
- 
- /*
-    margin: 3.5em auto 2.2em;
-    width: 80%;
+#photos, #photopage {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 0.5em;
+    }
+
+.gallery-photo {
+    height: 132px;
+    max-width: 235px;
+    margin: 0 10px 10px 0px;
+    }
+
+#photopage li a {
     display: block;
-    border-top: 1px solid rgba(107,74,51,0.45);
+    padding: 0 3px;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin: 0 4px 4px 0;
+    font-size: 1em;
+    width: 30px;
+    text-align: center;
+    background: #b7af9d;
+    background-image: linear-gradient(to bottom, #b7af9d, #e0e0e0);
+    color: #282828;
+    border: solid #5a5a5a 1px;
+    box-shadow: 1px 1px 1px #888888;
     }
-*/
 
-/* I used a CSS button generator found here: http://css-tricks.com/examples/ButtonMaker/ to create this code and then modded the size of the button via the padding and font size. Also, this div for the button keeps the background color from the footer bleeding all the way up to the nav. Clearing the float for the footer does not fix this! */
+#photopage li a:hover {
+    background: rgb(140,29,64);
+    color: rgb(0,0,0);
+    }
+
+#goodies {
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    color: rgb(10,72,89);
+    margin: 0 2em;
+}
+
+.column {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0;
+    }
+
+.types {
+    line-height: 39px;
+    font-size: 1.3em;
+   }
+
+.money {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin: 1em;
+    }
+
+.money p {
+    margin: 0 1em;
+}
