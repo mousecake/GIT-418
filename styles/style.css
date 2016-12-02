@@ -386,11 +386,11 @@ nav a {
 #photos {
     background-color: black;
     padding: 10px 0 0 10px;
+    max-width: 660px;
     }
 
 #photos, #photopage {
     display: inline-flex;
-    min-width: 75%;
     flex-wrap: wrap;
     justify-content: flex-start;
     margin-bottom: 0.5em;
