@@ -2,13 +2,11 @@
 <html lang="en">
 <head>
 	<meta meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title title="student version">ASU GIT Program Course Listing</title>
+	<title title="student version">ASU GIT Program Career Opportunities</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles/style.css" />
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
-	<script src="scripts/flickr.js" type="text/javascript" ></script>
-	<script src="scripts/gallery.js" type="text/javascript" ></script>
-	<script src="scripts/filter.js" type="text/javascript"></script>
+	<script src="scripts/careers.js" type="text/javascript"></script>
 </head>
 <body>
 
@@ -28,12 +26,12 @@
 			<li class="mainNavMenuItem"><a href="GIT418-Searcy-microsite.html" title="Student Built GIT homepage">Home</a></li>
 			<li class="mainNavMenuItem"><a href="courses.html" title="Courses">Courses</a></li>
 			<li class="mainNavMenuItem"><a href="resources.html" title="Resources">Resources</a></li>
-			<li class="mainNavMenuItem"><a href="GIT418-Searcy-microsite.html" title="Careers">Careers</a></li>
+			<li class="mainNavMenuItem"><a href="careers.html" title="Careers">Careers</a></li>
 			<li class="mainNavMenuItem"><a href="gallery.html" title="Gallery">Gallery</a></li>
 		</ul>
 	</nav>
 	</div>
-	<p class="pageTitle">ASU GIT Program Photo Gallery</p>
+	<p class="pageTitle">Career Opportunities for GIT Graduates&ast;</p>
 	<div class="boxes">
 		<aside id="social" title="Social Media Navigation Menu">
 			<nav class="socialNav" title="Social Media Navigation">
@@ -48,16 +46,33 @@
 			</nav>
 		</aside>
 
-	<section>
-		<div id="photo-container">
-			<ul id="photos">
-			</ul>
-			<0l id="photopage">
-			</0l>
+	<section id="goodies" title="Career Opportunities">
+		<div class="column">
+		<div class="types">
+		<p>Art Directors</p>
+		<p>Desktop Publishers</p>
+		<p>Film &amp; Video Editors</p>
+		<p>Graphic Designers</p>
+		<p>Multimedia Artists &amp; Animators</p>
+		<p>Photographers</p>
+		<p>Prepress Technicians &amp; Workers</p>
+		<p>Search Engine Strategist</p>
+		<p>Video Game Designers</p>
+		<p>Web Developers</p>
+		</div>
+		<canvas id="career" width="400" height="400" style="border:1px solid #d3d3d3;">
+		Your browser does not support the Canvas HTML tag.</canvas>
+		</div>
+		<div class="money">
+		<p>&dollar;10,000</p>
+		<p>&dollar;20,000</p>
+		<p>&dollar;60,000</p>
+		<p>&dollar;80,000</p>
+		<p>&dollar;100,000</p>
 		</div>
 	</section>
 
-	<aside title="tip" id="tips">
+	<aside title="tips" id="tips">
 		<h3>Did you Know?</h3>
 		<img src="images/kiosk.jpg" alt="2 students review outdoor kiosk postings" >
 		<p>That you have access Maecenas ultrices rhoncus risus, dignissim dapibus dui maximus eu. Aliquam erat volutpat. Sed vestibulum mauris ante, eu commodo mauris elementum non. In interdum tristique eros ut commodo. Vestibulum non tempus ante. Praesent posuere ornare dapibus. Integer laoreet dui justo, sed sagittis arcu facilisis nec.</p>
@@ -78,13 +93,38 @@
 	</body>
 	<script>
 		$(document).ready(function(){
-			GetPhotos(1);
-		});
-
-		$(document).on('click', 'a.photo-page', function(){
-			ClearPhotos();
-			GetPhotos(parseInt($(this).html()));
-			//console.log($(this).html());
+			var c = document.getElementById("career");
+			var chart = c.getContext("2d");
+			chart.rect(2, 18, 532, -13);
+			chart.rect(2, 28, 504, 18);
+			chart.rect(2, 61, 484, 19);
+			chart.rect(1, 95, 457, 29);
+			chart.rect(2, 141, 428, 33);
+			chart.rect(3, 192, 372, 54);
+			chart.rect(1, 254, 441, 32);
+			chart.rect(2, 300, 430, 22);
+			chart.rect(1, 334, 432, 19);
+			chart.rect(2, 364, 433, 17);
+			chart.moveTo(42,395);
+			chart.lineTo(42,395);
+			chart.moveTo(43,4);
+			chart.lineTo(41,399);
+			chart.moveTo(109,4);
+			chart.lineTo(107,400);
+			chart.moveTo(186,3);
+			chart.lineTo(189,400);
+			chart.moveTo(260,4);
+			chart.lineTo(264,400);
+			chart.moveTo(337,7);
+			chart.lineTo(344,400);
+			chart.moveTo(412,8);
+			chart.lineTo(418,400);
+			chart.moveTo(462,4);
+			chart.lineTo(457,400);
+			chart.moveTo(566,5);
+			chart.lineTo(563,398);
+			chart.moveTo(514,162);
+			chart.lineTo(538,165);
 		});
 	</script>
 </html>

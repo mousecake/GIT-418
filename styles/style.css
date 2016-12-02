@@ -137,7 +137,6 @@ body {
 
 .boxes {
     display: flex;
-    margin: 0 1em;
     justify-content: space-between;
     }
 
@@ -177,13 +176,6 @@ section a:visited, address a:visited {
     text-indent: -9999px;
     display: none;
 }
-
-/* #GITPitch p:first-child::nth-word(-n+4) {
-    color: rgb(10,72,89);
-    font-weight: bold;
-    font-size: 1.2em;
-    font-family: "Roboto","Arial",sans-serif;
-    } */  
 
 #GITPitch p {
     padding-bottom: 0.5em;
@@ -320,7 +312,6 @@ header a {
 /* Main Navigation */
 
 #mainNav {
-    /* width: 65%; */
     margin: 0 1em;
     height: 3em;
     border-bottom-style: solid;
@@ -340,11 +331,6 @@ header a {
 #mainNav a {
     margin: 15px 20px;
     }
-
-/* .search {
-    margin-top: 15px;
-    margin-left: 1em;
-    } */
 
 .skip {
     position: absolute;
@@ -395,12 +381,12 @@ nav a {
 
 #photo-container {
     margin: 0em 1.5em;
-}
+    }
 
 #photos {
     background-color: black;
     padding: 10px 0 0 10px;
-}
+    }
 
 #photos, #photopage {
     display: inline-flex;
@@ -408,13 +394,13 @@ nav a {
     flex-wrap: wrap;
     justify-content: flex-start;
     margin-bottom: 0.5em;
-}
+    }
 
 .gallery-photo {
     height: 132px;
     max-width: 235px;
     margin: 0 10px 10px 0px;
-}
+    }
 
 #photopage li a {
     display: block;
@@ -430,30 +416,40 @@ nav a {
     color: #282828;
     border: solid #5a5a5a 1px;
     box-shadow: 1px 1px 1px #888888;
-}
+    }
 
 #photopage li a:hover {
-  background: rgb(140,29,64);
-  color: rgb(0,0,0);
-}
-}
-
-/*
-nav ul li a:active {
-    -ms-transform: translate(2px, 2px); /* IE 9 */
-/*  -webkit-transform: translate(2px, 2px); /* Chrome, Safari, Opera */
-/*  transform: translate(2px, 2px);
+    background: rgb(140,29,64);
+    color: rgb(0,0,0);
     }
 
+#goodies {
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    color: rgb(10,72,89);
+    margin: 0 2em;
+}
 
- /* This was the best method I could come up with for restricting the length of the border. I put a paragraph in a span in the HTML. */
- 
- /*
-    margin: 3.5em auto 2.2em;
-    width: 80%;
-    display: block;
-    border-top: 1px solid rgba(107,74,51,0.45);
+.column {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0;
     }
-*/
 
-/* I used a CSS button generator found here: http://css-tricks.com/examples/ButtonMaker/ to create this code and then modded the size of the button via the padding and font size. Also, this div for the button keeps the background color from the footer bleeding all the way up to the nav. Clearing the float for the footer does not fix this! */
+.types {
+    line-height: 39px;
+    font-size: 1.3em;
+   }
+
+.money {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin: 1em;
+    }
+
+.money p {
+    margin: 0 1em;
+}
